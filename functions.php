@@ -37,12 +37,9 @@ $route = $_GET['route'] ? $_GET['route'] : 'main';
 
 
 
-function rusmonth($n) {
-    $month = [1 => 'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'];
-    return $month[$n];
+function rusmonths($n) {
+    $months = [1 => 'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'];
+    return $months[$n];
 }
-$date = [ 
-    'day' => date(' d '),
-    'month' => rusmonth(date('n')),
-    'year' => date(' Y ')
-];
+$ruslang = rusmonths(date('n'));
+$Aprel = date(" d $ruslang Y ");

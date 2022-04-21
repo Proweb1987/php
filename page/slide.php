@@ -2,7 +2,7 @@
         <main class="main">
             <section class="head">
                 <h2 class="head__title">Слайдер</h2>
-                <p class="head__date">Сегодня <?= $date['day'],$date['month'],$date['year']?>год</p>
+                <p class="head__date">Сегодня <?= $Aprel?>год</p>
             </section>
             <div class="slider">
                 <div class="slider__line">

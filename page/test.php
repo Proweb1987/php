@@ -44,6 +44,6 @@
             <h1><?= date('d-m-Y H:i:s')?></h1>
 
             <?
-                var_dump($_GET);
+                var_dump($countries);
             ?>
         </main>

@@ -1,7 +1,7 @@
 <main class="main">
             <section class="head">
                 <h2 class="head__title">Главная</h2>
-                <p class="head__date">Сегодня <?= $date['day'],$date['month'],$date['year']?>год</p>
+                <p class="head__date">Сегодня <?= $Aprel?>год</p>
             </section>
             <secrion class="body">
                 <h2 class="body__title">О школе Proweb</h2>
